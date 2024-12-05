@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: verdana;
+  font-size: 17px;
+  
+}
+
+.container {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.container img {vertical-align: middle;}
+
+.container .content {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: WhiteSmoke;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+</style>
+<title>Family</title>
+</head>
+<body style="background-color:Gainsboro;">
+
+<div class="container">
+  <img src="Family_image.jpeg" alt="example" style="width:100%;">
+  <div class="content">
+    <h1>This is my family, The Izhar family.</h1>
+    <p>My family consist of seven fammily members including me, my four sibling and my parent. I'm the eldest son in the family so typically i shoulder a heavy responsibility of taking care my sibling and prevent them any bad influence.  </p>
+  </div>
+</div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <h3>My father</h3>
+      <p><ul style="list-style-type:disc;"> 
+          <li>Name:Izhar Efendi bin Mohd Sharif</li>
+          <li>Age:47</li>
+          <li>Profession: Lead engineer at Sultan Azlan Shah Power Station in Seri Manjung </li></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <h3>My mother</h3>
+      <p><ul style="list-style-type:disc;"> 
+          <li>Name: Norashikin binti Adzman</li>
+          <li>Age: 46</li>
+          <li>Profession: Full-time housewife</li></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <h3>Me</h3>
+      <p><ul style="list-style-type:disc;"> 
+          <li>Name: Muhammad Fariz bin Izhar Efendi</li>
+          <li>Age: 20</li>
+          <li>Profession: University student in diploma of information management at UiTM Merbok, Sungai Petani, Kedah</li></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <h3>My little brother</h3>
+      <p><ul style="list-style-type:disc;"> 
+          <li>Name: Muhammad Aiman bin Izhar Efendi</li>
+          <li>Age: 18</li>
+          <li>Profession: University student at UIA Gambang, Pahang</li></p>
+    </div>
+  </div>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <h3>My little sister</h3>
+      <p><ul style="list-style-type:disc;"> 
+          <li>Name: Ameera Nazeeha binti Izhar Efendi</li>
+          <li>Age: 16</li>
+          <li>Profession: Highschool student at SMA At-Ta'lim, Seri Manjung, Perak</li></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <h3>My second little brother</h3>
+      <p><ul style="list-style-type:disc;"> 
+          <li>Name: Muhammad Ikmal bin Izhar Efendi</li>
+          <li>Age: 12</li>
+          <li>Profession: Year six primaryschool student at SRAR At-Ta'lim, Seri Manjung, Perak</li></p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+      <h3>My third little brother</h3>
+      <p><ul style="list-style-type:disc;"> 
+          <li>Name: Muhammad Ashraf bin Izhar Efendi</li>
+          <li>Age: 10</li>
+          <li>Profession: Year four primaryschool student at SRAR At-Ta'lim, Seri Manjung, Perak</li></p>
+    </div>
+  </div>
+ <!-- END GRID -->
+</div>
+
+</body>
+</html>
+

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div.scroll-container {
+  background-color:DarkGray;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 2px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+</style>
+<title>Gallery</title>
+</head>
+<body style="background-color:Gainsboro;">
+
+<h1 style="font-family:verdana;color:DimGray;background-color: Whitesmoke;"><b> Here are some of the collection of images and photos </b></h1>
+
+<div class="scroll-container">
+  <img src="Screenshot (64).png" alt="Cinque Terre" width="600" height="400">
+  <img src="Screenshot (1285).png" alt="Forest" width="600" height="400">
+  <img src="Screenshot (95).png" alt="Northern Lights" width="600" height="400">
+  <img src="Screenshot (138).png" alt="Bar" width="600" height="400">
+  <img src="Screenshot (493).png" alt="images" width="600" height="400">
+  <img src="Screenshot (496).png" alt="images" width="600" height="400">
+  <img src="Screenshot (702).png" alt="images width="600" height="400">
+<img src="Screenshot (390).png" alt="images" width="600" height="400">
+<img src="Screenshot (393).png" alt="images" width="600" height="400">
+<img src="Screenshot (452).png" alt="images" width="600" height="400">
+<img src="Screenshot (473).png" alt="images" width="600" height="400">
+<img src="Screenshot (474).png" alt="images" width="600" height="400">
+<img src="Screenshot (512).png" alt="images" width="600" height="400">
+</div>
+
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="Image_1.jpeg" style="width:100%">
+    <img src="Image_2.jpeg" style="width:100%">
+    <img src="Image_3.jpeg" style="width:100%">
+    <img src="Image_4.jpeg" style="width:100%">
+    <img src="Image_5.jpeg" style="width:100%">
+    <img src="Image_24.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Image_6.jpeg" style="width:100%">
+    <img src="Image_7.jpeg" style="width:100%">
+    <img src="Image_8.jpeg" style="width:100%">
+    <img src="Image_9.jpeg" style="width:100%">
+    <img src="Image_10.jpeg" style="width:100%">
+    <img src="Image_21.jpeg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="Image_11.jpeg" style="width:100%">
+    <img src="Image_12.jpeg" style="width:100%">
+    <img src="Image_13.jpeg" style="width:100%">
+    <img src="Image_14.jpeg" style="width:100%">
+    <img src="Image_15.jpeg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="Image_16.jpeg" style="width:100%">
+    <img src="Image_17.jpeg" style="width:100%">
+    <img src="Image_18.jpeg" style="width:100%">
+    <img src="Image_19.jpeg" style="width:100%">
+    <img src="Image_20.jpeg" style="width:100%">
+    <img src="Image_25.jpeg" style="width:100%">
+    <img src="Image_23.jpeg" style="width:100%">
+   </div>
+</div>
+
+</body>
+</html>

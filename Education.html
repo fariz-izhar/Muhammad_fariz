@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  padding: 20px;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: right;
+  width: 45%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 20px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 200%;
+  }
+}
+</style>
+<title>Education</title>
+</head>
+<body style="background-color:Gainsboro;">
+
+<!-- MAIN (Center website) -->
+<div class="main">
+
+<h1 style="color:DimGray";>My Education Journey</h1>
+<hr>
+
+<!-- Portfolio Gallery Grid -->
+<div class="row">
+  <div class="column">
+    <div class="content">
+      <img src="Schoolimage_1.jpeg" alt="School" style="width:100%">
+
+      <h3>HighSchool</h3>
+      <ul style="list-style-type:disc;">
+  <li>Name of the school: SMA At-Ta'alim</li>
+  <li>From:2017-2022</li>
+  <li>Academic certificate: PT3 & SPM</li>
+</ul>  
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="Schoolimage_3.jpg" alt="School" style="width:100%">
+
+      <h3>PrimarySchool</h3>
+      <ul style="list-style-type:disc;">
+   <li>Name of the school: SRAR At-Ta'alim</li>
+   <li>From: 2011-2016</li>
+   <li>Academic certificate: UPKK, SRAI & UPSR</li>
+    </div>
+  </div>
+</div>
+
+<div class="content">
+  <img src="Schoolimage_2.jpeg" alt="Uni" style="width:100%">
+  <h3>University</h3>
+  <ul style="list-style-type:disc;">
+   <li>Name of the Uni: UiTM Merbok, Sungai Petani, Kedah</li>
+   <li>From: October 2022- February 2024</li>
+   <li>Program: Diploma in Information Management (IM110)</li>
+   <li>Academic certificate: Dean listed during semester 1 </li>
+</div>
+
+<!-- END MAIN -->
+</div>
+
+    </body>
+</html>
+
+
+
+
